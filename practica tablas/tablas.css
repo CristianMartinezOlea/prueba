@@ -1,0 +1,29 @@
+table, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 5px;
+}
+td{
+	text-align: center;
+}
+table{
+	width: 100%;
+}
+caption{
+	color: #00DCF8;
+	font-size: 50px;
+	line-height: 70px;
+	font-family: "Times New Roman", Georgia, Serif; /*sirve para colocar fuentes a los textos*/
+}
+th{
+	color: #71DB7A;
+	background-color: #EE7007;
+}
+/*renglones pares*/
+tr:nth-child(even){
+	background-color: #B6E9E9;
+}
+/*Renglones impares*/
+tr:nth-child(odd){
+	background-color: #179;
+}
